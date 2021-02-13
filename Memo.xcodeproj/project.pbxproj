@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0BA3B93B25D7FCA300159C01 /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA3B93A25D7FCA300159C01 /* MemoListTableViewController.swift */; };
+		0BA3B93E25D800BC00159C01 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA3B93D25D800BC00159C01 /* ComposeViewController.swift */; };
 		0BE9616725D2543D001EE247 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE9616625D2543D001EE247 /* AppDelegate.swift */; };
 		0BE9616925D2543D001EE247 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE9616825D2543D001EE247 /* SceneDelegate.swift */; };
 		0BE9616E25D2543D001EE247 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BE9616C25D2543D001EE247 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		0BA3B93A25D7FCA300159C01 /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
+		0BA3B93D25D800BC00159C01 /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		0BE9616325D2543D001EE247 /* Memo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BE9616625D2543D001EE247 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BE9616825D2543D001EE247 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				0BE9617725D25440001EE247 /* Info.plist */,
 				0BE9616F25D2543D001EE247 /* Memo.xcdatamodeld */,
 				0BA3B93A25D7FCA300159C01 /* MemoListTableViewController.swift */,
+				0BA3B93D25D800BC00159C01 /* ComposeViewController.swift */,
 			);
 			path = Memo;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				0BE9618025D25735001EE247 /* Model.swift in Sources */,
 				0BE9616725D2543D001EE247 /* AppDelegate.swift in Sources */,
 				0BA3B93B25D7FCA300159C01 /* MemoListTableViewController.swift in Sources */,
+				0BA3B93E25D800BC00159C01 /* ComposeViewController.swift in Sources */,
 				0BE9616925D2543D001EE247 /* SceneDelegate.swift in Sources */,
 				0BE9617125D2543D001EE247 /* Memo.xcdatamodeld in Sources */,
 			);
