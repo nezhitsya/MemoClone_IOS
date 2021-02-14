@@ -73,7 +73,11 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a41-XG-trx">
                                 <rect key="frame" x="0.0" y="813" width="414" height="49"/>
                                 <items>
-                                    <barButtonItem title="Item" id="gPa-Z2-3eD"/>
+                                    <barButtonItem systemItem="compose" id="gPa-Z2-3eD">
+                                        <connections>
+                                            <segue destination="dPG-hg-fAR" kind="presentation" id="hkv-Fq-Rdt"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="4KU-LM-OrT">
@@ -133,6 +137,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="JB7-Hg-UJV"/>
+                    <connections>
+                        <outlet property="memoTableView" destination="4KU-LM-OrT" id="UlW-ys-2vn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i3i-ne-JMf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -219,6 +226,9 @@
             <point key="canvasLocation" x="157.97101449275362" y="-686.38392857142856"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="hkv-Fq-Rdt"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
