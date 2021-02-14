@@ -16,6 +16,7 @@
 		0BE9617325D25440001EE247 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BE9617225D25440001EE247 /* Assets.xcassets */; };
 		0BE9617625D25440001EE247 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BE9617425D25440001EE247 /* LaunchScreen.storyboard */; };
 		0BE9618025D25735001EE247 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE9617F25D25735001EE247 /* Model.swift */; };
+		0BFFCE2725D8FFE400E939AA /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFFCE2625D8FFE400E939AA /* UIViewController+Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		0BE9617525D25440001EE247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BE9617725D25440001EE247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BE9617F25D25735001EE247 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		0BFFCE2625D8FFE400E939AA /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				0BE9616F25D2543D001EE247 /* Memo.xcdatamodeld */,
 				0BA3B93A25D7FCA300159C01 /* MemoListTableViewController.swift */,
 				0BA3B93D25D800BC00159C01 /* ComposeViewController.swift */,
+				0BFFCE2625D8FFE400E939AA /* UIViewController+Alert.swift */,
 			);
 			path = Memo;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				0BA3B93E25D800BC00159C01 /* ComposeViewController.swift in Sources */,
 				0BE9616925D2543D001EE247 /* SceneDelegate.swift in Sources */,
 				0BE9617125D2543D001EE247 /* Memo.xcdatamodeld in Sources */,
+				0BFFCE2725D8FFE400E939AA /* UIViewController+Alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
