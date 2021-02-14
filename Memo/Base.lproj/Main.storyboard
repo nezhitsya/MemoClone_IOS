@@ -86,7 +86,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="new memo" id="QiU-SA-iJI">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="QCU-Pz-ztN"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="QCU-Pz-ztN">
+                            <connections>
+                                <action selector="close:" destination="sTe-Da-JcW" id="900-Zp-5tP"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="MVN-AI-ksW"/>
                     </navigationItem>
                 </viewController>
