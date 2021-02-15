@@ -20,12 +20,17 @@ class DetailViewController: UIViewController {
         return f
     }()
     
-    @IBAction func share(_ sender: Any) {
+    @IBAction func share(_ sender: UIBarButtonItem) {
         guard let memo = memo?.content else {
             return
         }
         
         let vc = UIActivityViewController(activityItems: [memo], applicationActivities: nil)
+        
+        if let pc = vc.popoverPresentationController {
+            pc.barButtonItem = sender
+        }
+        
         present(vc, animated: true, completion: nil)
     }
     
