@@ -73,6 +73,13 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a41-XG-trx">
                                 <rect key="frame" x="0.0" y="813" width="414" height="49"/>
                                 <items>
+                                    <barButtonItem systemItem="trash" id="GE0-U6-Z2T">
+                                        <color key="tintColor" systemColor="systemOrangeColor"/>
+                                        <connections>
+                                            <action selector="deleteMemo:" destination="2Mn-ui-I2D" id="EFj-fi-OFj"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="zOJ-0E-cq9"/>
                                     <barButtonItem systemItem="compose" id="gPa-Z2-3eD">
                                         <connections>
                                             <segue destination="dPG-hg-fAR" kind="presentation" id="hkv-Fq-Rdt"/>
@@ -235,6 +242,9 @@
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
