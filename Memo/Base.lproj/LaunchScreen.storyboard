@@ -18,15 +18,21 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="HRg-cw-Gsi">
                                 <rect key="frame" x="157" y="398" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="100" id="4o1-n4-MXW"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="GWg-u5-UF8"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="100" id="bJ5-a3-PZ5"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="osL-iY-4tq"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="HRg-cw-Gsi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="157" id="2fX-lf-b87"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HRg-cw-Gsi" secondAttribute="trailing" constant="157" id="Cgr-d4-sZd"/>
-                            <constraint firstItem="HRg-cw-Gsi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="354" id="rZ9-vB-dNA"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HRg-cw-Gsi" secondAttribute="bottom" constant="364" id="vzJ-pN-0wk"/>
+                            <constraint firstItem="HRg-cw-Gsi" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="DJ7-eu-Kc0"/>
+                            <constraint firstItem="HRg-cw-Gsi" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="EHq-dJ-AR8"/>
+                            <constraint firstItem="HRg-cw-Gsi" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="HyS-fO-nSj"/>
+                            <constraint firstItem="HRg-cw-Gsi" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="IyB-cC-Tiw"/>
                         </constraints>
                     </view>
                 </viewController>
